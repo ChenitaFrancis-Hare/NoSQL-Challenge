@@ -45,7 +45,7 @@ Deliverable 2: Update the Database - Use NoSQL_setup_starter.ipynb for this sect
 
 3. Update the new restaurant with the BusinessTypeID you found.
 
-4.The magazine is not interested in any establishments in Dover, so check how many documents contain the Dover Local Authority. Then, remove any establishments within the Dover Local Authority from the database, and check the number of documents to ensure they were deleted.
+4. The magazine is not interested in any establishments in Dover, so check how many documents contain the Dover Local Authority. Then, remove any establishments within the Dover Local Authority from the database, and check the number of documents to ensure they were deleted.
 
 5. Some of the number values are stored as strings, when they should be stored as numbers.
 > 5.1. Use update_many to convert latitude and longitude to decimal numbers.
