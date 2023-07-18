@@ -1,4 +1,4 @@
-# DataCollection-Challenge
+# NoSQL-Challenge
 
 
 ## Instructions
@@ -15,6 +15,7 @@ Deliverable 1: Database and Jupyter Notebook Set Up - Use NoSQL_setup_starter.ip
 
 Deliverable 2: Update the Database - Use NoSQL_setup_starter.ipynb for this section of the challenge.
 
+Deliverable 3: Exploratory Analysis
 
 
 ### Part 1: Database and Jupyter Notebook Set Up
@@ -34,8 +35,8 @@ Deliverable 2: Update the Database - Use NoSQL_setup_starter.ipynb for this sect
 
 
 
-### Part 2: Update the 
-## The magazine editors have some requested modifications for the database before you can perform any queries or analysis for them. Make the following changes to the establishments collection:
+### Part 2: Update the Database
+The magazine editors have some requested modifications for the database before you can perform any queries or analysis for them. Make the following changes to the establishments collection:
 
 1. An exciting new halal restaurant just opened in Greenwich, but hasn't been rated yet. The magazine has asked you to include it in your analysis. Add the following information to the database:
 
@@ -50,6 +51,18 @@ Deliverable 2: Update the Database - Use NoSQL_setup_starter.ipynb for this sect
 5. Some of the number values are stored as strings, when they should be stored as numbers.
 > 5.1. Use update_many to convert latitude and longitude to decimal numbers.
 > 5.2. Use update_many to convert RatingValue to integer numbers.
+
+
+
+### Part 3: Exploratory Analysis
+
+Question 1: Which establishments have a hygiene score equal to 20?
+
+Question 2: Which establishments in London have a RatingValue greater than or equal to 4?
+
+Question 3: What are the top 5 establishments with a RatingValue of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"?
+
+Question 4: How many establishments in each Local Authority area have a hygiene score of 0? Sort the results from highest to lowest, and print out the top ten local authority areas.
 
 
 
